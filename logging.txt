@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	https://pavankumart855.atlassian.net/rest/api/3/issue
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic cGF2YW5rdW1hcnQ4NTVAZ21haWwuY29tOkFUQVRUM3hGZkdGMHRlcHkwazAzSUVoQkd4WExKQWlLeHV3c1dTZFhMRGNkSTVZUW8zZlZEc016WTAwbk5Sal9MRTV3aWhtQkhwRHUzdVZPQmxHcThXU0NZWk9VYlo0QWdUTGlHa3hxcjQ1ZlR5ZjQxU09LbXpPZzhfMGcybTBLNFFIWHdEODdXX3JyajlNY1ZDRkh4RjRWa05vRFRZTGxzRDVOTndDMHloamF0NFFybExybkUzVT1EQzc3RkRDNQ==
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "SCRUM1"
+        },
+        "summary": "Test Area is not Interacting",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Date: Thu, 26 Sep 2024 16:55:37 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 07a8f33e8e339ae2140733bbdb70736f
+Set-Cookie: atlassian.xsrf.token=88e75b2e16d6da27e68084df8104a1d966aadac9_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3Acc9d7cbe-913a-43ab-8fa1-27659ec8f90b
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 674780071406493bbe51d7be8f0c3389
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=1026,atl-edge-internal;dur=142,atl-edge-upstream;dur=835,atl-edge-pop;desc="aws-ap-south-1"
+Transfer-Encoding: chunked
+
+{
+    "id": "10051",
+    "key": "SCRUM1-20",
+    "self": "https://pavankumart855.atlassian.net/rest/api/3/issue/10051"
+}

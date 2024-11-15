@@ -1,0 +1,85 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2024-09-26T16:55:33.627Z",
+    "line" : 3,
+    "name" : "Verify JiraId is create",
+    "description" : "",
+    "id" : "to-validate-jira-id-is-created-when-the-user-loggs-a-defect;verify-jiraid-is-create",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1132792400,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "Create JiraId PayLoad",
+      "match" : {
+        "location" : "StepDefinition.StepDefinition.create_jira_id_pay_load()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 2536736200,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user calls \"CreateJiraIssue\" with \"Post\" https request",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"CreateJiraIssue\"",
+          "offset" : 11
+        }, {
+          "val" : "\"Post\"",
+          "offset" : 34
+        } ],
+        "location" : "StepDefinition.StepDefinition.user_calls_with_https_request(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 540619800,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Jira id should be created",
+      "match" : {
+        "location" : "StepDefinition.StepDefinition.jira_id_should_be_created()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1995900,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "Status code should be 201",
+      "match" : {
+        "arguments" : [ {
+          "val" : "201",
+          "offset" : 22
+        } ],
+        "location" : "StepDefinition.StepDefinition.status_code_should_be(java.lang.Integer)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "validate JiraId is created",
+      "match" : {
+        "location" : "StepDefinition.StepDefinition.validate_jira_id_is_created()"
+      },
+      "keyword" : "And "
+    } ]
+  } ],
+  "name" : "to validate Jira id is created when the user loggs a defect",
+  "description" : "",
+  "id" : "to-validate-jira-id-is-created-when-the-user-loggs-a-defect",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/features/jira.feature",
+  "tags" : [ ]
+} ]
